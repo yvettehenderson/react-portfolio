@@ -4,6 +4,9 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import "./App.css";
 
+import Footer from './components/Footer';
+import HomePage from './components/pages/HomePage'
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -52,9 +55,16 @@ class App extends React.Component {
               <Link className id="nav-link" to="/about">About</Link>
               <br></br>
               <Link className id="nav-link" to="/contact">Contact</Link>
+
+            
+
             </nav>
             </Navbar.Collapse>
             </Navbar>
+            <Route path="/" exact render={() => <HomePage title= {this.state.home.title}/>}/> 
+            <Footer/>
+
+
         </Container>
       </Router>
     );
