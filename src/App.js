@@ -30,7 +30,7 @@ class App extends React.Component {
         title: "Yvette Henderson",
         subTitle: "Web Developer and Project Manager",
         // eslint-disable-next-line
-        title: " think of a good title for your projects",
+        title: "Yvette Henderson",
       },
       about: {
         // eslint-disable-next-line
@@ -49,7 +49,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Yvette Henderson</Navbar.Brand>
+            <Navbar.Brand></Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">

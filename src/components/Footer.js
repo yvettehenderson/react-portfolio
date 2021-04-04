@@ -9,7 +9,7 @@ function Footer() {
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
           <Col className="p-0" sm={12}>
-            Yvette Henderson
+          
           </Col>
           {/* <Col className="p-0 d-flex jestify-content-end" md={1}>
             Enter in whatever text you want here
