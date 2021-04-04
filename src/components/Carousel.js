@@ -4,8 +4,8 @@ import Row from 'react-bootstrap/Row';
 
 
 import cal from "../assets/cal.png";
-// import fitness from "../assets/";
-// import password from "../assets/";
+import note from '../assets/note.png';
+import music from '../assets/music.png';
 
 import Card from '../components/Card';
 
@@ -17,18 +17,18 @@ class Carousel extends React.Component {
       items: [
         {
           id: 0,
-          title: "Fitness Tracker",
+          title: "Note Taker",
           subTitle: "",
-          // imgSrc: fitness,
-          link: " https://ancient-springs-30410.herokuapp.com/",
+          imgSrc: note,
+          link: "https://afternoon-meadow-88480.herokuapp.com/",
           selected: false,
         },
         {
           id: 1,
-          title: "Password Generator",
+          title: "Music Spider",
           subTitle: "",
-          // imgSrc: password,
-          link: "https://yvettehenderson.github.io/password-generator/",
+          imgSrc: music,
+          link: "https://inesr19.github.io/Project-1/",
           selected: false,
         },
         {
