@@ -16,9 +16,9 @@ function AboutPage(props) {
             solving. I am independently motivated, yet I appreciate team efforts and collaborate productively within
             groups. Additionally, I am knowledgeable in Adobe, Microsoft Office, Google Docs, Slack, Basecamp,Smartsheets, Paymo, NetSuite and a Scrum Master.By Night, I am  a full stack web developer with experice in  Java Script,Express JS, Node JS, Oracle SQL, MongoDB, and React. </p>
 
-            <p>You can find my LinkedIn profile<a href="https://www.linkedin.com/in/yvette-henderson/" target="_blank" rel="noopener noreferrer">here</a></p>
-            <p>You can find my resume<a href="https://docs.google.com/document/d/1Vh3W_eedNPY-5DOkmfM1Pnr7un-swiUdA8Gl07MvTx0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >here</a></p>
-            <p>You can find my GitHub profile<a href="https://github.com/yvettehenderson" target="_blank" rel="noopener noreferrer" >here</a></p>
+            <p>You can find my LinkedIn profile<a className="git" href="https://www.linkedin.com/in/yvette-henderson/" target="_blank" rel="noopener noreferrer">here</a></p>
+            <p>You can find my resume<a className="git" href="https://docs.google.com/document/d/1Vh3W_eedNPY-5DOkmfM1Pnr7un-swiUdA8Gl07MvTx0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here</a></p>
+            <p>You can find my GitHub profile<a className="git" href="https://github.com/yvettehenderson" target="_blank" rel="noopener noreferrer">here</a></p>
 
 
 
