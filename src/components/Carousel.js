@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import cal from "../assets/cal.png";
 import note from '../assets/note.png';
 import music from '../assets/music.png';
+import password from "../assets/password.png";
+import fitness from "../assets/fitness.png";
 
 import Card from '../components/Card';
 
@@ -39,6 +41,23 @@ class Carousel extends React.Component {
           link: "https://yvettehenderson.github.io/calendar/",
           selected: false,
         },
+        {
+          id: 3,
+          title: "Password Generator",
+          subTitle: "",
+          imgSrc: password ,
+          link: "https://yvettehenderson.github.io/password-generator/",
+          selected: false,
+        },
+        {
+          id: 4,
+          title: "Fitness Tracker",
+          subTitle: "",
+          imgSrc: fitness,
+          link: "https://ancient-springs-30410.herokuapp.com/?id=60550b42cef5ff0015b9ff7a",
+          selected: false,
+        },
+        
       ],
     };
   }
