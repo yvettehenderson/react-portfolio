@@ -1,7 +1,7 @@
 {
   "name": "react-",
   "version": "0.1.0",
-  "homepage": "https://yvettehenderson.github.io",
+  "homepage": "https://yvettehenderson.github.io/react-portfolio/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
